@@ -758,6 +758,31 @@ q14: "B"    // 错误
 - manifest中的搜索和筛选
 - 统计分析
 
+#### isHidden（隐藏标记）
+
+**数据类型**: 布尔值
+
+**取值范围**: true 或 false
+
+**默认值**: false
+
+**说明**: 标记该文章是否被隐藏
+
+**用途**:
+- **随机组题过滤**: 随机生成套题时，不会选择isHidden=true的文章
+- **用户自定义**: 用户可以在前端隐藏某些文章（如已练习多次的）
+- **搜索显示**: 隐藏的文章在搜索结果中仍可见，但会标记为"已隐藏"
+
+**设置方式**:
+- 初始生成时，所有文章默认为false
+- 用户在前端可以通过开关按钮切换隐藏状态
+- 隐藏状态存储在用户本地（localStorage或IndexedDB）
+
+**注意事项**:
+- 这是**用户级别**的设置，不是文章本身的属性
+- JSON中的isHidden只是默认值
+- 实际使用时，前端会合并用户的隐藏设置
+
 ---
 
 ## 8. 特殊情况处理
@@ -939,7 +964,7 @@ JSON: "sentence": "The disease was first discovered in ______ by researchers."
 - passage必须有: title, paragraphs
 - 每个段落必须有: label, content
 - 每道题必须有: questionNumber, type, instruction, content
-- metadata必须有: difficulty, totalQuestions, questionTypes
+- metadata必须有: difficulty, totalQuestions, questionTypes, isHidden
 
 **字段类型检查**:
 - id: 字符串
@@ -949,6 +974,7 @@ JSON: "sentence": "The disease was first discovered in ______ by researchers."
 - metadata.difficulty: 数字
 - metadata.totalQuestions: 数字
 - metadata.questionTypes: 数组
+- metadata.isHidden: 布尔值
 
 ### 9.2 数据一致性验证
 
@@ -1294,7 +1320,8 @@ JSON: "sentence": "The disease was first discovered in ______ by researchers."
       "metadata": {
         "difficulty": 1,
         "totalQuestions": 13,
-        "questionTypes": ["notes-completion", "true-false-ng"]
+        "questionTypes": ["notes-completion", "true-false-ng"],
+        "isHidden": false
       }
     },
     {
@@ -1370,7 +1397,8 @@ JSON: "sentence": "The disease was first discovered in ______ by researchers."
       "metadata": {
         "difficulty": 2,
         "totalQuestions": 13,
-        "questionTypes": ["paragraph-matching", "summary-completion", "feature-matching"]
+        "questionTypes": ["paragraph-matching", "summary-completion", "feature-matching"],
+        "isHidden": false
       }
     },
     {
@@ -1447,9 +1475,24 @@ JSON: "sentence": "The disease was first discovered in ______ by researchers."
       "metadata": {
         "difficulty": 3,
         "totalQuestions": 14,
-        "questionTypes": ["true-false-ng", "statement-matching", "summary-completion", "multiple-choice-single"]
+        "questionTypes": ["true-false-ng", "statement-matching", "summary-completion", "multiple-choice-single"],
+        "isHidden": false
       }
     }
   ]
 }
 ```
+
+**示例说明**:
+
+1. **Chunk结构**: 包含version字段和data数组，data中有3篇完整文章
+2. **题型覆盖**: 展示了7种不同题型的完整JSON结构
+3. **段落标签**: P1文章无标签（null），P2文章有标签（A/B/C）
+4. **答案和解析**: 每道题都包含answer和explanation字段
+5. **拖拽题**: paragraph-matching和feature-matching包含canReuse字段
+6. **填空题**: 空格用`______`表示，包含wordLimit字段
+7. **isHidden**: 所有文章默认为false（不隐藏）
+
+
+**文档版本**: v1.0  
+**最后更新**: 2025-10-18 Armazi
