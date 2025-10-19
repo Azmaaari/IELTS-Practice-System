@@ -75,6 +75,24 @@ export interface MatchingContent {
   canReuse: boolean
 }
 
+export interface FeatureMatchingContent {
+  statement: string
+  options: Array<{ label: string; text: string }>
+  canReuse: boolean
+}
+
+export interface HeadingMatchingContent {
+  paragraphLabel: string
+  options: Array<{ label: string; text: string }>
+  canReuse: boolean
+}
+
+export interface SentenceEndingContent {
+  sentenceStem: string
+  options: Array<{ label: string; text: string }>
+  canReuse: boolean
+}
+
 // 题目基础接口
 export interface BaseQuestion {
   questionNumber: number
@@ -86,7 +104,7 @@ export interface BaseQuestion {
 
 // 完整题目类型
 export type Question = BaseQuestion & {
-  content: TrueFalseContent | MultipleChoiceContent | MultipleChoiceMultipleContent | CompletionContent | MatchingContent
+  content: TrueFalseContent | MultipleChoiceContent | MultipleChoiceMultipleContent | CompletionContent | MatchingContent | FeatureMatchingContent | HeadingMatchingContent | SentenceEndingContent
   checkboxGroupName?: string
   occupiesQuestions?: number
 }

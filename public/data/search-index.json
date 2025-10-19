@@ -1,4 +1,460 @@
 {
   "version": "1.0",
-  "items": []
+  "items": [
+    {
+      "id": "e002",
+      "title": "A survivor's story",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e005",
+      "title": "Australian artist Margaret Preston",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e007",
+      "title": "Chili peppers",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e008",
+      "title": "Fishbourne Roman Palace",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e009",
+      "title": "Listening to the Ocean",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "paragraph-matching",
+        "multiple-choice-single"
+      ]
+    },
+    {
+      "id": "e011",
+      "title": "Report on a university drama project",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e012",
+      "title": "Rubber",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e014",
+      "title": "Sydney Opera House",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e016",
+      "title": "The Clipper Races: an era of competition between cargo ships",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e017",
+      "title": "The Development of The Silk Industry",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e018",
+      "title": "The History of Tea",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e019",
+      "title": "The Impact of the Potato",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e020",
+      "title": "The Importance of Business Cards",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e021",
+      "title": "The life of Beatrix Potter",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e023",
+      "title": "The Origin of Paper",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e025",
+      "title": "The Rise and Fall of Detective Stories",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e026",
+      "title": "The Tuatara of New Zealand",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e028",
+      "title": "Book review: Triumph of the City",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e029",
+      "title": "Tunnelling under the Thames",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e030",
+      "title": "What Lucy Taught Us",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e063",
+      "title": "Crossing the Threshold",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e068",
+      "title": "Game theory",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e069",
+      "title": "Grimm's Fairy Tales",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e074",
+      "title": "Let's teach them how to teach",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e075",
+      "title": "Life on Mars?",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e079",
+      "title": "Pacific Navigation and Voyaging",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e080",
+      "title": "Rebranding art museums",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e081",
+      "title": "Robert Louis Stevenson",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e082",
+      "title": "Some views on the use of headphones",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e084",
+      "title": "The Analysis of Fear",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "feature-matching",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e085",
+      "title": "The Art of Deception",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "notes-completion",
+        "yes-no-ng"
+      ]
+    },
+    {
+      "id": "e086",
+      "title": "The benefits of learning an instrument",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e088",
+      "title": "The fluoridation controversy",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e102",
+      "title": "Katherine Mansfield",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e109",
+      "title": "Humanities and the health professional",
+      "difficulty": 3,
+      "questionCount": 14,
+      "questionTypes": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ]
+    },
+    {
+      "id": "e110",
+      "title": "Should space be explored by robots or by humans?",
+      "difficulty": 2,
+      "questionCount": 13,
+      "questionTypes": [
+        "heading-matching",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e112",
+      "title": "The Importance of Law",
+      "difficulty": 2,
+      "questionCount": 13,
+      "questionTypes": [
+        "heading-matching",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e116",
+      "title": "The Development of Plastics",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e122",
+      "title": "Footprints in the Mud",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e124",
+      "title": "The extinction of the cave bear",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e125",
+      "title": "Investing in the Future",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e126",
+      "title": "Dolls through the ages",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "notes-completion",
+        "true-false-ng"
+      ]
+    },
+    {
+      "id": "e128",
+      "title": "The Pyramid of Cestius",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    },
+    {
+      "id": "e134",
+      "title": "Dyes and fabric dyeing",
+      "difficulty": 1,
+      "questionCount": 13,
+      "questionTypes": [
+        "true-false-ng",
+        "notes-completion"
+      ]
+    }
+  ]
 }

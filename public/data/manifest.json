@@ -1,6 +1,550 @@
 {
   "version": "1.0.0",
-  "totalExams": 0,
+  "totalExams": 44,
   "lastUpdated": "2025-10-19",
-  "index": []
+  "index": [
+    {
+      "id": "e002",
+      "t": "A survivor's story",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e002",
+      "o": 0
+    },
+    {
+      "id": "e005",
+      "t": "Australian artist Margaret Preston",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e005",
+      "o": 0
+    },
+    {
+      "id": "e007",
+      "t": "Chili peppers",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e007",
+      "o": 0
+    },
+    {
+      "id": "e008",
+      "t": "Fishbourne Roman Palace",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e008",
+      "o": 0
+    },
+    {
+      "id": "e009",
+      "t": "Listening to the Ocean",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "paragraph-matching",
+        "multiple-choice-single"
+      ],
+      "c": "e009",
+      "o": 0
+    },
+    {
+      "id": "e011",
+      "t": "Report on a university drama project",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e011",
+      "o": 0
+    },
+    {
+      "id": "e012",
+      "t": "Rubber",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e012",
+      "o": 0
+    },
+    {
+      "id": "e014",
+      "t": "Sydney Opera House",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e014",
+      "o": 0
+    },
+    {
+      "id": "e016",
+      "t": "The Clipper Races: an era of competition between cargo ships",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e016",
+      "o": 0
+    },
+    {
+      "id": "e017",
+      "t": "The Development of The Silk Industry",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e017",
+      "o": 0
+    },
+    {
+      "id": "e018",
+      "t": "The History of Tea",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e018",
+      "o": 0
+    },
+    {
+      "id": "e019",
+      "t": "The Impact of the Potato",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e019",
+      "o": 0
+    },
+    {
+      "id": "e020",
+      "t": "The Importance of Business Cards",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e020",
+      "o": 0
+    },
+    {
+      "id": "e021",
+      "t": "The life of Beatrix Potter",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e021",
+      "o": 0
+    },
+    {
+      "id": "e023",
+      "t": "The Origin of Paper",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e023",
+      "o": 0
+    },
+    {
+      "id": "e025",
+      "t": "The Rise and Fall of Detective Stories",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e025",
+      "o": 0
+    },
+    {
+      "id": "e026",
+      "t": "The Tuatara of New Zealand",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e026",
+      "o": 0
+    },
+    {
+      "id": "e028",
+      "t": "Book review: Triumph of the City",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e028",
+      "o": 0
+    },
+    {
+      "id": "e029",
+      "t": "Tunnelling under the Thames",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e029",
+      "o": 0
+    },
+    {
+      "id": "e030",
+      "t": "What Lucy Taught Us",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e030",
+      "o": 0
+    },
+    {
+      "id": "e063",
+      "t": "Crossing the Threshold",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ],
+      "c": "e063",
+      "o": 0
+    },
+    {
+      "id": "e068",
+      "t": "Game theory",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ],
+      "c": "e068",
+      "o": 0
+    },
+    {
+      "id": "e069",
+      "t": "Grimm's Fairy Tales",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ],
+      "c": "e069",
+      "o": 0
+    },
+    {
+      "id": "e074",
+      "t": "Let's teach them how to teach",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ],
+      "c": "e074",
+      "o": 0
+    },
+    {
+      "id": "e075",
+      "t": "Life on Mars?",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "notes-completion"
+      ],
+      "c": "e075",
+      "o": 0
+    },
+    {
+      "id": "e079",
+      "t": "Pacific Navigation and Voyaging",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ],
+      "c": "e079",
+      "o": 0
+    },
+    {
+      "id": "e080",
+      "t": "Rebranding art museums",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ],
+      "c": "e080",
+      "o": 0
+    },
+    {
+      "id": "e081",
+      "t": "Robert Louis Stevenson",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "notes-completion"
+      ],
+      "c": "e081",
+      "o": 0
+    },
+    {
+      "id": "e082",
+      "t": "Some views on the use of headphones",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "notes-completion"
+      ],
+      "c": "e082",
+      "o": 0
+    },
+    {
+      "id": "e084",
+      "t": "The Analysis of Fear",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "feature-matching",
+        "notes-completion"
+      ],
+      "c": "e084",
+      "o": 0
+    },
+    {
+      "id": "e085",
+      "t": "The Art of Deception",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "notes-completion",
+        "yes-no-ng"
+      ],
+      "c": "e085",
+      "o": 0
+    },
+    {
+      "id": "e086",
+      "t": "The benefits of learning an instrument",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ],
+      "c": "e086",
+      "o": 0
+    },
+    {
+      "id": "e088",
+      "t": "The fluoridation controversy",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "multiple-choice-single",
+        "yes-no-ng",
+        "sentence-ending-matching"
+      ],
+      "c": "e088",
+      "o": 0
+    },
+    {
+      "id": "e102",
+      "t": "Katherine Mansfield",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e102",
+      "o": 0
+    },
+    {
+      "id": "e109",
+      "t": "Humanities and the health professional",
+      "d": 3,
+      "qc": 14,
+      "qt": [
+        "yes-no-ng",
+        "multiple-choice-single",
+        "sentence-ending-matching"
+      ],
+      "c": "e109",
+      "o": 0
+    },
+    {
+      "id": "e110",
+      "t": "Should space be explored by robots or by humans?",
+      "d": 2,
+      "qc": 13,
+      "qt": [
+        "heading-matching",
+        "notes-completion"
+      ],
+      "c": "e110",
+      "o": 0
+    },
+    {
+      "id": "e112",
+      "t": "The Importance of Law",
+      "d": 2,
+      "qc": 13,
+      "qt": [
+        "heading-matching",
+        "notes-completion"
+      ],
+      "c": "e112",
+      "o": 0
+    },
+    {
+      "id": "e116",
+      "t": "The Development of Plastics",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e116",
+      "o": 0
+    },
+    {
+      "id": "e122",
+      "t": "Footprints in the Mud",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e122",
+      "o": 0
+    },
+    {
+      "id": "e124",
+      "t": "The extinction of the cave bear",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e124",
+      "o": 0
+    },
+    {
+      "id": "e125",
+      "t": "Investing in the Future",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e125",
+      "o": 0
+    },
+    {
+      "id": "e126",
+      "t": "Dolls through the ages",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "notes-completion",
+        "true-false-ng"
+      ],
+      "c": "e126",
+      "o": 0
+    },
+    {
+      "id": "e128",
+      "t": "The Pyramid of Cestius",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e128",
+      "o": 0
+    },
+    {
+      "id": "e134",
+      "t": "Dyes and fabric dyeing",
+      "d": 1,
+      "qc": 13,
+      "qt": [
+        "true-false-ng",
+        "notes-completion"
+      ],
+      "c": "e134",
+      "o": 0
+    }
+  ]
 }
