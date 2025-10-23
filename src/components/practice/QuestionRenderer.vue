@@ -81,8 +81,10 @@ const questionComponent = computed(() => {
     ),
     'sentence-ending-matching': defineAsyncComponent(() => 
       import('./questions/SentenceEndingQuestion.vue')
+    ),
+    'multiple-choice-multiple': defineAsyncComponent(() => 
+      import('./questions/MultipleChoiceMultipleQuestion.vue')
     )
-    // 更多题型组件待添加
   }
   
   const component = componentMap[props.question.type]

@@ -26,11 +26,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 interface Props {
   questionNumber: number
   content: {
+    statement?: string
     paragraphLabel?: string
     options?: Array<{ label: string; text: string }>
   }
@@ -46,9 +47,15 @@ const emit = defineEmits<{
 const droppedValue = ref(props.modelValue || '')
 const isDragOver = ref(false)
 
+// 监听外部值变化
+watch(() => props.modelValue, (newVal) => {
+  droppedValue.value = newVal || ''
+})
+
 // 获取段落文本
 function getParagraphText() {
-  return `Paragraph ${props.content.paragraphLabel || ''}`
+  // 优先使用statement字段（如 "Paragraph A"），否则构造文本
+  return props.content.statement || `Paragraph ${props.content.paragraphLabel || ''}`
 }
 
 // 拖拽事件处理

@@ -50,7 +50,7 @@
           :disabled="isOptionUsed(option.label) && !content.canReuse"
           @click="selectOption(option.label)"
           draggable="true"
-          @dragstart="handleDragStart(option.label)"
+          @dragstart="(e) => handleDragStart(option.label, e)"
         >
           <span class="font-semibold">{{ option.label }}</span> {{ option.text }}
         </button>
@@ -72,7 +72,7 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  showOptionsPool: true,
+  showOptionsPool: false,  // 默认不显示选项池，统一在题组底部显示
   usedOptions: () => []
 })
 
@@ -103,18 +103,29 @@ function getOptionText(label: string): string {
   return option ? option.text : ''
 }
 
-function handleDragStart(label: string) {
+function handleDragStart(label: string, event?: DragEvent) {
   draggedOption.value = label
+  // 拖拽数据
+  if (event && event.dataTransfer) {
+    event.dataTransfer.setData('text/plain', label)
+    event.dataTransfer.effectAllowed = 'move'
+  }
 }
 
 function handleDrop(event: DragEvent) {
   event.preventDefault()
   isDragOver.value = false
   
-  if (draggedOption.value) {
+  // 从dataTransfer获取数据
+  const droppedValue = event.dataTransfer?.getData('text/plain')
+  
+  if (droppedValue) {
+    selectOption(droppedValue)
+  } else if (draggedOption.value) {
     selectOption(draggedOption.value)
-    draggedOption.value = null
   }
+  
+  draggedOption.value = null
 }
 
 function selectOption(label: string) {

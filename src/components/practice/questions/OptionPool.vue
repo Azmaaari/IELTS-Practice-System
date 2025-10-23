@@ -1,7 +1,7 @@
 <template>
   <div class="option-pool" :id="poolId">
     <div
-      v-for="option in options"
+      v-for="option in visibleOptions"
       :key="option.label"
       class="card draggable"
       draggable="true"
@@ -17,6 +17,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 interface Option {
   label: string
   text?: string
@@ -26,10 +28,21 @@ interface Props {
   poolId: string
   options: Option[]
   canReuse?: boolean
+  usedOptions?: string[]
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  canReuse: false
+  canReuse: false,
+  usedOptions: () => []
+})
+
+// 可见选项（如果不能重复使用，完全过滤掉已使用的选项）
+const visibleOptions = computed(() => {
+  if (props.canReuse) {
+    return props.options
+  }
+  // 不可重用时，移除已使用的选项
+  return props.options.filter(option => !props.usedOptions.includes(option.label))
 })
 
 function handleDragStart(event: DragEvent) {

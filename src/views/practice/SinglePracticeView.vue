@@ -23,7 +23,7 @@
     <div v-else-if="examData" class="practice-container">
       <!-- 顶部工具栏 -->
       <div class="bg-white border-b border-gray-200 px-6 py-4 sticky top-0 z-10">
-        <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div class="w-full flex items-center justify-between">
           <router-link to="/search" class="text-primary-600 hover:text-primary-700">
             ← 返回搜索
           </router-link>
@@ -39,7 +39,7 @@
       </div>
 
       <!-- 主要内容区：左右分栏 -->
-      <div class="max-w-7xl mx-auto px-6 py-8">
+      <div class="w-full px-6 py-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <!-- 左侧：文章 -->
           <div class="lg:sticky lg:top-24 lg:h-[calc(100vh-8rem)]">
@@ -70,13 +70,14 @@
                 />
               </div>
 
-              <!-- 拖拽题的选项池（如果有） -->
-              <OptionPool
-                v-if="group.hasOptions && group.options"
-                :pool-id="`pool-${groupIndex}`"
-                :options="group.options"
-                :can-reuse="group.canReuse || false"
-              />
+      <!-- 拖拽题的选项池（对所有匹配类题型显示） -->
+      <OptionPool
+        v-if="group.hasOptions && group.options && ['heading-matching', 'paragraph-matching', 'feature-matching', 'statement-matching', 'classification'].includes(group.type)"
+        :pool-id="`pool-${groupIndex}`"
+        :options="group.options"
+        :can-reuse="group.canReuse || false"
+        :used-options="getUsedOptionsForGroup(group)"
+      />
             </div>
           </div>
         </div>
@@ -181,6 +182,18 @@ onMounted(async () => {
     examData.value = data
   }
 })
+
+// 获取题组中已使用的选项
+function getUsedOptionsForGroup(group: any): string[] {
+  const used: string[] = []
+  group.questions.forEach((q: Question) => {
+    const answer = userAnswers.value[`q${q.questionNumber}`]
+    if (answer && typeof answer === 'string') {
+      used.push(answer)
+    }
+  })
+  return used
+}
 
 // 提交答案
 function handleSubmit() {

@@ -15,9 +15,6 @@
         >
       </template>
     </p>
-    <p class="text-xs text-gray-500 mt-2 ml-6">
-      {{ content.wordLimit }}
-    </p>
   </div>
 </template>
 

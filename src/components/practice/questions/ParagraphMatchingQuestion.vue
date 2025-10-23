@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import type { MatchingContent } from '@/types/exam'
 
 interface Props {
@@ -43,6 +43,11 @@ const emit = defineEmits<{
 
 const droppedValue = ref(props.modelValue || '')
 const isDragOver = ref(false)
+
+// 监听外部值变化
+watch(() => props.modelValue, (newVal) => {
+  droppedValue.value = newVal || ''
+})
 
 function handleDrop(event: DragEvent) {
   event.preventDefault()
